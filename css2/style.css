@@ -1,0 +1,87 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Sofia+Sans:wght@300&display=swap');
+
+html{font-size: 16px;
+    scroll-behavior: smooth;
+}
+
+
+*{
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Sofia Sans', sans-serif;
+    margin:0px;
+}
+
+a{
+    color:black;
+    text-decoration: none;
+}
+
+#Galeria{
+    font-size:20px;
+}
+.column-3{
+    width: 33.33%;
+    float: left;
+}
+
+.column-2{
+    float: left;
+}
+
+.menu {
+    width: 25%;
+}
+.contenido {
+    width: 75%;
+}
+
+.padding-s{ 
+    padding: 3%;
+}
+
+#img-1{
+    height: 50vh;
+    background-image: url(../img2/arya-krisdyantara-LTEfj149DLQ-unsplash.jpg);
+    background-size: cover;
+    background-position: center; 
+}
+
+#img-2{
+    height: 50vh;
+    background-image: url(../img2/colin-lloyd-DvVcwl4cUsc-unsplash.jpg);
+    background-size: cover;
+    background-position: center; 
+}
+
+#img-3{
+    height: 50vh;
+    background-image: url(../img2/scott-rodgerson-G6dXvXN2gVM-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.padding-1, .padding-2 {
+    font-size: 20px;
+}
+
+.padding-1{
+    padding: 6%;
+    background-color: rgb(227,227,227);
+}
+
+
+
+
+@media only screen and (max-width: 700px){
+    .column-3{
+        width: 100%;}
+    
+    .column-4{
+        width: 50%;
+    }
+}
